@@ -143,7 +143,7 @@ public abstract class Screen<V extends ViewGroup & ScreenView> implements BackHa
     return true;
   }
 
-  public String getTitle(Context context) {
+  public CharSequence getTitle(Context context) {
     return "";
   }
 
